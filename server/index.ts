@@ -2,7 +2,7 @@ import { createServer } from "http";
 import { Server } from "socket.io";
 import { setupListeners } from "./lib/setupListeners";
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 
 
 const httpServer = createServer();
